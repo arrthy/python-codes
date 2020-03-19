@@ -1,3 +1,11 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
 def repeatedString(s, n):
     c1 = s.count("a")
     c2 = c1*(n//len(s))
